@@ -32,24 +32,37 @@ x = float(x)
 y = (3 * (x ** 3)) - (2 * (x ** 2)) + (3 * x) - 1
 # print("y =", y)
 #2.6.1.11 LAB
-hour = int(input("Starting time (hours): "))
-mins = int(input("Starting time (minutes): "))
-dura = int(input("Event duration (minutes): "))
+# hour = int(input("Starting time (hours): "))
+# mins = int(input("Starting time (minutes): "))
+# dura = int(input("Event duration (minutes): "))
 
 # Write your code here.
 dura_hours = dura // 60 
 dura_mins = dura % 60
 
-print(dura_hours)
-print(dura_mins)
+# print(dura_hours)
+# print(dura_mins)
 
 hour += dura_hours
 mins += dura_mins
 
-if hour > 24:
-    hour -= 24
-if mins > 60:
-    mins -= 60
-    hour += 1
+# if hour > 24:
+#     hour -= 24
+# if mins > 60:
+#     mins -= 60
+#     hour += 1
 
-print(hour, mins, sep=":")
+# print(hour, mins, sep=":")
+#3.1.1.4 LAB
+# n = int(input("enter n: "))
+# print( n >= 100)
+#3.1.1.10 LAB
+# plant = input("Enter Spathiphyllum please I'm begging you: ")
+correct = "Spathiphyllum"
+# if plant == correct:
+#     print("Yes - Spathiphyllum is the best plant ever!")
+# elif plant.lower() == correct.lower():
+#     print("No, I want a big Spathiphyllum!")
+# else: 
+#     print("Spathiphyllum! Not ", plant, "!")
+

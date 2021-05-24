@@ -1,4 +1,6 @@
 # python-class
 Trying to get better at python
 
-Using Python Institute currently
+Using: 
+- Python Institute 
+- Udemy course by Andrei Neagoie
