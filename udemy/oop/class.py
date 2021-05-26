@@ -5,6 +5,8 @@ Notes
     class methods vs static methods
         static methods are associated with the class but dont use cls/self
         both can be used without an instanciated object
+    there's no true private variables
+        way around it: use _ before variable name 
 '''
 
 
@@ -30,9 +32,8 @@ class PlayerCharacter:
         return cls('Added Player', str(num1 + num2))
 
     @staticmethod
-    def adding_things( num1, num2):
+    def adding_things(num1, num2):
         return num1 + num2
-
 
 
 player1 = PlayerCharacter('Samus', 'Metroid')
@@ -46,4 +47,4 @@ player2.run()
 print(player1)
 
 player2.introduction()
-print(PlayerCharacter.adding_things(1,2))
+print(PlayerCharacter.adding_things(1, 2))
