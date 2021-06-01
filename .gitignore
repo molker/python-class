@@ -1,0 +1,4 @@
+# exclude directories with images
+udemy/scripting/images/
+udemy/scripting/pokedex/
+udemy/scripting/pokedex-png/
