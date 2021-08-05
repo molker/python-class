@@ -1,8 +1,8 @@
 # exclude directories with images
-udemy/scripting/images/
-udemy/scripting/pokedex/
-udemy/scripting/pokedex-png/
-udemy/scripting/pdfs/
-udemy/web-dev/venv
-udemy/web-dev/__pycache__
-udemy/web-dev/static/assets/images
+udemy/ztm-python-course/scripting/images/
+udemy/ztm-python-course/scripting/pokedex/
+udemy/ztm-python-course/scripting/pokedex-png/
+udemy/ztm-python-course/scripting/pdfs/
+udemy/ztm-python-course/web-dev/venv
+udemy/ztm-python-course/web-dev/__pycache__
+udemy/ztm-python-course/web-dev/static/assets/images
